@@ -1,10 +1,12 @@
 import React from 'react';
+// import Timeline from '../components/timeline';
+import Timeline from '../components/timeline';
+
 
 function Home() {
   return (
     <main className="timeline">
-      <h1>Timeline here</h1>
-      <H2>clone</H2>
+      <Timeline />
     </main>
   );
 }
